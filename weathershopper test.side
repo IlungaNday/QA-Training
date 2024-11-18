@@ -1,0 +1,335 @@
+{
+  "id": "ed4490b1-e147-449c-ae96-fb7fa115279a",
+  "version": "2.0",
+  "name": "weathershopper test",
+  "url": "https://weathershopper.pythonanywhere.com",
+  "tests": [{
+    "id": "4a247bea-292d-461a-9b3e-bbda49dd7333",
+    "name": "Test_weathershopper",
+    "commands": [{
+      "id": "3a669f0d-a769-4f0e-a4a1-d32a89100dce",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bf468b15-1fce-423c-940a-1846e514aa46",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "751b2167-4225-4d75-a215-dda361a7a025",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-center:nth-child(1) .btn",
+      "targets": [
+        ["css=.text-center:nth-child(1) .btn", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Buy moisturizers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "15c28e11-11d9-471e-9d7f-7d0928b52939",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(2) > .text-center:nth-child(1) > .btn",
+      "targets": [
+        ["css=.row:nth-child(2) > .text-center:nth-child(1) > .btn", "css:finder"],
+        ["xpath=//button[@onclick=\"addToCart('Alexander Almond & Honey Moisturiser',360)\"]", "xpath:attributes"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b378b87-4382-4979-a129-e082ae704685",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(2) > .text-center:nth-child(3) > .btn",
+      "targets": [
+        ["css=.row:nth-child(2) > .text-center:nth-child(3) > .btn", "css:finder"],
+        ["xpath=//button[@onclick=\"addToCart('Emmanuel Aloe Vera Beauty Gel',299)\"]", "xpath:attributes"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "30ae52c6-4811-4494-a45c-c5ad942b8e49",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-center:nth-child(5) > .btn",
+      "targets": [
+        ["css=.text-center:nth-child(5) > .btn", "css:finder"],
+        ["xpath=//button[@onclick=\"addToCart('Mikhail Almond and Talc',353)\"]", "xpath:attributes"],
+        ["xpath=//div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f63a88ac-82a1-42f7-9af4-e8e2d0923a69",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(2) > .text-center:nth-child(1) > .btn",
+      "targets": [
+        ["css=.row:nth-child(2) > .text-center:nth-child(1) > .btn", "css:finder"],
+        ["xpath=//button[@onclick=\"addToCart('Alexander Almond & Honey Moisturiser',360)\"]", "xpath:attributes"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f91409d-3c9d-46b7-aca6-63af2dfd3038",
+      "comment": "",
+      "command": "click",
+      "target": "css=.thin-text",
+      "targets": [
+        ["css=.thin-text", "css:finder"],
+        ["xpath=//button[@onclick='goToCart()']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cart - 4 item(s)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "924bb472-222e-4e89-89c0-76e70a46fa25",
+      "comment": "",
+      "command": "click",
+      "target": "css=span:nth-child(1)",
+      "targets": [
+        ["css=span:nth-child(1)", "css:finder"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Pay with Card')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "47ca6d1d-1455-4b4b-a325-b69adf9a0af9",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "01a4e8d7-c9ee-44ba-b862-fe2de268798d",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "ilu@gmail.com"
+    }, {
+      "id": "acf4faa4-7658-45f8-8d0e-16edd0a770ea",
+      "comment": "",
+      "command": "click",
+      "target": "id=card_number",
+      "targets": [
+        ["id=card_number", "id"],
+        ["css=#card_number", "css:finder"],
+        ["xpath=//input[@id='card_number']", "xpath:attributes"],
+        ["xpath=//div/div/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5992511-8efc-4696-b6fa-730f8e4b78aa",
+      "comment": "",
+      "command": "type",
+      "target": "id=card_number",
+      "targets": [
+        ["id=card_number", "id"],
+        ["css=#card_number", "css:finder"],
+        ["xpath=//input[@id='card_number']", "xpath:attributes"],
+        ["xpath=//div/div/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "1231231231231231"
+    }, {
+      "id": "ea67f939-4982-48e8-87d8-95d1a025d78a",
+      "comment": "",
+      "command": "click",
+      "target": "id=cc-exp",
+      "targets": [
+        ["id=cc-exp", "id"],
+        ["css=#cc-exp", "css:finder"],
+        ["xpath=//input[@id='cc-exp']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6620383c-6e9a-452b-a173-1dbe9cc9a787",
+      "comment": "",
+      "command": "type",
+      "target": "id=cc-exp",
+      "targets": [
+        ["id=cc-exp", "id"],
+        ["css=#cc-exp", "css:finder"],
+        ["xpath=//input[@id='cc-exp']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "08 / 28"
+    }, {
+      "id": "e0851ff1-8e4d-490f-b6f9-a85f6517a014",
+      "comment": "",
+      "command": "click",
+      "target": "id=cc-csc",
+      "targets": [
+        ["id=cc-csc", "id"],
+        ["css=#cc-csc", "css:finder"],
+        ["xpath=//input[@id='cc-csc']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "270f21c2-2d8d-43e1-bb8c-03491fd7c8e5",
+      "comment": "",
+      "command": "type",
+      "target": "id=cc-csc",
+      "targets": [
+        ["id=cc-csc", "id"],
+        ["css=#cc-csc", "css:finder"],
+        ["xpath=//input[@id='cc-csc']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "141"
+    }, {
+      "id": "4b573197-68be-42cc-a93e-7b9f81a07279",
+      "comment": "",
+      "command": "click",
+      "target": "css=.iconTick",
+      "targets": [
+        ["css=.iconTick", "css:finder"],
+        ["xpath=//button[@id='submitButton']/span/span", "xpath:idRelative"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e790045d-33a1-4f42-bdde-db77d425594a",
+      "comment": "",
+      "command": "type",
+      "target": "id=card_number",
+      "targets": [
+        ["id=card_number", "id"],
+        ["css=#card_number", "css:finder"],
+        ["xpath=//input[@id='card_number']", "xpath:attributes"],
+        ["xpath=//div/div/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "334f64c9-d82f-4222-8199-8f04a50a85c8",
+      "comment": "",
+      "command": "type",
+      "target": "id=card_number",
+      "targets": [
+        ["id=card_number", "id"],
+        ["css=#card_number", "css:finder"],
+        ["xpath=//input[@id='card_number']", "xpath:attributes"],
+        ["xpath=//div/div/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "5367 4122 8287 9512"
+    }, {
+      "id": "e9f3cfa0-b716-4fd4-990e-2f8918d0d19b",
+      "comment": "",
+      "command": "click",
+      "target": "id=cc-exp",
+      "targets": [
+        ["id=cc-exp", "id"],
+        ["css=#cc-exp", "css:finder"],
+        ["xpath=//input[@id='cc-exp']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "78f379b9-6a28-4472-91be-76212468ab74",
+      "comment": "",
+      "command": "type",
+      "target": "id=cc-exp",
+      "targets": [
+        ["id=cc-exp", "id"],
+        ["css=#cc-exp", "css:finder"],
+        ["xpath=//input[@id='cc-exp']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "04 / 29"
+    }, {
+      "id": "380ea41a-283a-4d5a-9923-b6ce70443a33",
+      "comment": "",
+      "command": "click",
+      "target": "id=cc-csc",
+      "targets": [
+        ["id=cc-csc", "id"],
+        ["css=#cc-csc", "css:finder"],
+        ["xpath=//input[@id='cc-csc']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb859b45-59f2-43bc-9318-49fcd53a4bca",
+      "comment": "",
+      "command": "type",
+      "target": "id=cc-csc",
+      "targets": [
+        ["id=cc-csc", "id"],
+        ["css=#cc-csc", "css:finder"],
+        ["xpath=//input[@id='cc-csc']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "049"
+    }, {
+      "id": "a739eb13-07d2-48dd-a779-a26eed63b940",
+      "comment": "",
+      "command": "click",
+      "target": "css=.iconTick",
+      "targets": [
+        ["css=.iconTick", "css:finder"],
+        ["xpath=//button[@id='submitButton']/span/span", "xpath:idRelative"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c3af541-b829-47ba-854b-9c21077ee8b5",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7be9a2b-4141-4eab-b538-993762eb7564",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=About",
+      "targets": [
+        ["linkText=About", "linkText"],
+        ["css=a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'About')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/about')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'About')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e411ba8d-e353-47d3-ac4c-b8d8ab866931",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f44ee60e-bfc5-4573-995e-c953fef6725e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4a247bea-292d-461a-9b3e-bbda49dd7333"]
+  }],
+  "urls": ["https://weathershopper.pythonanywhere.com/"],
+  "plugins": []
+}

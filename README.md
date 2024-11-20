@@ -7,6 +7,7 @@ The skills developed in this project are:
 1. Git & Github
 2. Writing Python Code
 3. Writing SQL
+   
 
 4. Implementing Selenium
    
@@ -18,6 +19,8 @@ The skills developed in this project are:
   
   As a customer,
   I want to put items in the cart and pay for them without any errors. 
+  
+  
 
   ACCEPTANCE CRITERIA 
 
@@ -27,6 +30,8 @@ The skills developed in this project are:
   -Users should be able to put items in the cart. 
   
   -When the user clicks pay with card they should be able to pay with a valid debit card.
+
+  
 
 5. How will the course benefit me?
    

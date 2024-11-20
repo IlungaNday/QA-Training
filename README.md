@@ -12,7 +12,9 @@ The skills developed in this project are:
 
   USER STORY
   Title: Buying moisturizer
+  
   As a customer,
+  
   I want to put items in the cart and pay for them without any errors. 
 
   ACCEPTANCE CRITERIA 

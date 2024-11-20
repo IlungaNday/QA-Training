@@ -11,7 +11,9 @@ The skills developed in this project are:
 4. Implementing Selenium
 
   USER STORY
+  
   Title: Buying moisturizer
+  
   As a customer,
   I want to put items in the cart and pay for them without any errors. 
 

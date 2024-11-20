@@ -23,7 +23,7 @@ The skills developed in this project are:
   -When the user clicks pay with card they should be able to pay with a valid debit card.
 
 5. How will the course benefit me?
-6. 
-   The training has given me a great overview on what i need to know.
+ 
+  -The training has given me a great overview on what i need to know.
    
-   It has made it easier for me to create a study guide to master all the skills.
+  -It has made it easier for me to create a study guide to master all the skills.

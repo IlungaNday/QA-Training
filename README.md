@@ -12,16 +12,18 @@ The skills developed in this project are:
 
   USER STORY
   Title: Buying moisturizer
-  
   As a customer,
-  
   I want to put items in the cart and pay for them without any errors. 
 
   ACCEPTANCE CRITERIA 
   -system should display the items for purchase. 
+  
   -Users should be able to put items in the cart. 
+  
   -When the user clicks pay with card they should be able to pay with a valid debit card.
 
 5. How will the course benefit me?
+6. 
    The training has given me a great overview on what i need to know.
+   
    It has made it easier for me to create a study guide to master all the skills.
